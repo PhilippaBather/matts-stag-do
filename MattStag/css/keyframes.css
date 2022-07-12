@@ -1,0 +1,61 @@
+/** KEY FRAMES **/
+@-webkit-keyframes wiggle {
+  from {
+    transform: rotateZ(0);
+    color: black;
+  }
+  to {
+    translate: rotateZ(100deg);
+    color: #c5075a;
+  }
+}
+@keyframes wiggle {
+  from {
+    transform: rotateZ(0);
+    color: black;
+  }
+  to {
+    translate: rotateZ(100deg);
+    color: #c5075a;
+  }
+}
+@-webkit-keyframes event-day-rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+  33% {
+    color: #c5075a;
+    background: var(--dusky-black);
+    transform: rotateX(60deg);
+  }
+  75% {
+    color: #c5075a;
+    background: var(--dusky-black);
+    transform: rotateX(180deg);
+  }
+  100% {
+    color: #c5075a;
+    background: var(--dusky-black);
+    transform: rotateX(360deg);
+  }
+}
+@keyframes event-day-rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+  33% {
+    color: #c5075a;
+    background: var(--dusky-black);
+    transform: rotateX(60deg);
+  }
+  75% {
+    color: #c5075a;
+    background: var(--dusky-black);
+    transform: rotateX(180deg);
+  }
+  100% {
+    color: #c5075a;
+    background: var(--dusky-black);
+    transform: rotateX(360deg);
+  }
+}/*# sourceMappingURL=keyframes.css.map */

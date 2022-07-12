@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Stag Manual</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div class="backdrop">
+    </div>
+    <header class="main-header">
+        <div class="main-header__index">
+            <div>
+                <i class="fas fa-beer fa-2x"></i>
+            </div>
+            <div class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div>
+                <i class="fas fa-beer fa-2x"></i>
+            </div>
+            <ul class="main-nav__list">
+                <li class="main-nav__list-item"><a href="#Friday">Friday</a></li>
+                <li class="main-nav__list-item"><a href="#Sat-Day">Saturday day</a></li>
+                <li class="main-nav__list-item"><a href="#Sat-Evening">Saturday evening</a></li>
+                <li class="main-nav__list-item"><a href="#Sun">Sunday</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav class="mobile-nav">
+        <i class="fas fa-times fa-2x"></i>
+        <h1 class="mobile-nav__menu-title">Matt's Stag Manual</h1>
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item"><a class="mobile-nav__item-anchor" href="#" id="mobile-nav__fri">Friday</a>
+            </li>
+            <li class="mobile-nav__item"><a class="mobile-nav__item-anchor" href="#" id="mobile-nav__sat-day">Saturday
+                    day</a></li>
+            <li class="mobile-nav__item"><a class="mobile-nav__item-anchor" href="#"
+                    id="mobile-nav__sat-evening">Saturday evening</a>
+            </li>
+            <li class="mobile-nav__item"><a class="mobile-nav__item-anchor" href="#" id="mobile-nav__sun">Sunday</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!--Title Section and Background-->
+        <section class="event-banner">
+            <h1 class="event-banner__title">Matt's Stag Manual</h1>
+            <p class="photo-credit">
+                <a class="photo-credit__anchor"
+                    href="https://www.pexels.com/photo/pink-panther-plush-toy-on-brown-bench-miniature-209620/"
+                    title="Pink Panther Plush Toy on Brown Bench Miniature" target="_blank">Photo by Pixabay from
+                    Pexels</a>
+            </p>
+        </section>
+        <!--Schedule: Information about the Events -->
+        <section class="events-section events__grid-parent">
+            <!--Friday 20th August--WEB VIEW-->
+            <aside class="day-container day-container__fri">
+                <h1 class="event-details__day-title">Friday</h1>
+            </aside>
+            <aside class="day-container-mobile day-container__fri">
+                <h1 class="event-details__day-title">
+                    <a id="mobile__day-title__fri" class="day-container-mobile__a" name="Fri">Friday</a>
+                </h1>
+            </aside>
+            <article class="event-details-container day-overview__fri" id="mobile__day-overview__fri">
+                <a name="Friday"></a>
+                <h1 class="event-details__title">Keeping it Session</h1>
+                <h2 class="event-details__activity">17:00 Ibis Albert Dock, Liverpool</h2>
+                <p class="event-details__info-para">Established as a brothel-cum boathouse in 1846 this up-market hotel
+                    now tends to weary travellers looking for that little
+                    bit of je ne sais quois. The hotel is well situated and benefits from parking. <a
+                        id="event-details__hotel">That said, Kath's review would have it otherwise:</a></p>
+                <p id="event-details__hotel-review" class="event-details__info-para">
+                    Although the hotel is well situated, and easy to find and park I would never stay there again unless
+                    there is a change of staff.
+                    We wanted to show our family from Canada the home of the Beatles but I was embarrassed by the
+                    service we received at this Ibis."
+                    <a class="anchor-tag__content" href="https://bit.ly/3I7Fy9Z"
+                        title="REVIEW: Don't stay there - ibis Liverpool Centre Albert Dock - Liverpool One Hotel, Liverpool - Tripadvisor"
+                        target="_blank">
+                        Kath261 - Oct. 2017 - 2 stars TripAdvisor
+                    </a>
+                    <button class="close-button" id="close-toggle-slide__hotel">Close</button>
+                </p>
+                <h2 class="event-details__activity">Parking</h2>
+                <p class="event-details__info-para"><a id="event-details__parking">Arriving by car and looking for a
+                        place to park your new Rover 75?...</a></p>
+                <p id="event-details__parking-info" class="event-details__info-para">Parking at the hotel is &#163;10
+                    per day on a first come first serve basis.
+                    Alternative parking at
+                    <a class="anchor-tag__content" href="https://bit.ly/3A23ZCW"
+                        title="Book parking at Q Park Albert Dock Liverpool" target="_blank">Q Park</a>;
+                    a 4 minute walk away at just shy of &#163;20 a day (at time of writing).
+                    <button class="close-button" id="close-toggle-slide__parking">Close</button>
+                </p>
+                <h2 class="event-details__activity">19:00 Food & Drink</h2>
+                <p class="event-details__info-para">
+                    <a class="anchor-tag__content" href="https://www.almostfamousburgers.com/liverpool"
+                        title="For menu and table booking" target="_blank">Almost Famous</a>
+                    American burger joint based in the north of England followed by beers at various watering holes.
+                </p>
+                <p class="event-details__info-para">**Alert friends to the dangers of ales above 4.5% ABV wilst trying
+                    to 'Keep it Session'.**
+                </p>
+            </article>
+
+            <!--Saturday Day 21st August-->
+            <aside class="day-container day-container__sat-day">
+                <h1 class="event-details__day-title">Saturday Day</h1>
+            </aside>
+            <aside class="day-container-mobile day-container__sat-day">
+                <h1 class="event-details__day-title">
+                    <a id="mobile__day-title__sat-day" class="day-container-mobile__a" name="Sat-day">Saturday Day</a>
+                </h1>
+            </aside>
+            <article class="event-details-container day-overview__sat-day" id="mobile__day-overview__sat-day">
+                <a name="Sat-Day"></a>
+                <h1 class="event-details__title">Catton Halls Stag Experience</h1>
+                <p class="event-details__info-para">An action packed day of typical 'manly' activities. Stag, stag,
+                    stag...lads, lads, lads...only our stag is into golf and his Jag (think Partridge shy of 30).
+                    So, no piss up before 12:00, rather all stags to arrive at 11:30 at
+                    <a class="anchor-tag__content" href="https://www.cattonhall.co.uk/stag-and-hens/"
+                        title="Find out about Catton Halls here" target="_blank">
+                        Catton Hall</a>
+                    situated in the beautiful Cheshire countryside. Boasting 200 acres of land, the estate is
+                    self-described as the 'Premier Outdoor Activitiy Venue' and 'The place for serious fun!'.
+                    Naturally, all activities to be undertaken will gesture to masculine pretensions:
+                </p>
+                <ul class="event-details__list">
+                    <li class="event-details__list-item">12:00
+                        <a class="anchor-tag__content"
+                            href="https://www.cattonhall.co.uk/outdoor-activities/air-rifling/"
+                            title="Find out about air rifling here" target="_blank">Air
+                            Riffle Experience</a>
+                    </li>
+                    <li class="event-details__list-item">13:00
+                        <a class="anchor-tag__content" href="https://www.cattonhall.co.uk/about-catton-hall/our-venue/"
+                            title="Check out the menu at the Shooting Lodge" target="_blank">Lunch at the Shooting
+                            Lodge</a>
+                    </li>
+                    <li class="event-details__list-item">14:00
+                        <a class="anchor-tag__content"
+                            href="https://www.cattonhall.co.uk/outdoor-activities/quad-biking/"
+                            title="Find out more about quad biking" target="_blank">Ultimate 9 Miles Quad Trek</a>
+                    </li>
+                </ul>
+                <p class="event-details__info-para">Note: no specific clothing required - helmets, overalls, balaclavas
+                    will be provided; no prizes for being any good.
+                    And, Matt and Alex: bring shoes you're happy to get covered in mud...not your favourite Nike Air
+                    Vapour Max.
+                </p>
+            </article>
+
+            <!--Saturday Evening 21st August-->
+            <aside class="day-container day-container__sat-night">
+                <h1 class="event-details__day-title">Saturday Evening</h1>
+            </aside>
+            <aside class="day-container-mobile day-container__sat-evening">
+                <h1 class="event-details__day-title">
+                    <a id="mobile__day-title__sat-evening" class="day-container-mobile__a" name="Sat-evening">Saturday
+                        Evening</a>
+                </h1>
+            </aside>
+            <article class="event-details-container day-overview__sat-night" id="mobile__day-overview__sat-evening">
+                <a name="Sat-Evening"></a>
+                <h1 class="event-details__title">Scouse Night on the Tiles</h1>
+                <p class="event-details__info-para">From the sophistication of Cheshire to the grit of Liverpool, and a
+                    chance for Matt to relive his uni days.
+                </p>
+                <ul class="event-details__list">
+                    <li class="event-details__list-item">17:30
+                        <a class="anchor-tag__content" href="https://www.ghettogolf.co.uk/about-ghetto-golf/"
+                            title="Find out about the Ghetto Golf" target="_blank">
+                            Ghetto Golf</a>...
+                    </li>
+                    <span class="event-details__info-para"> Not the
+                        <a class="anchor-tag__content" href="https://www.royal-liverpool-golf.com/"
+                            title="Find out about this historic club" target="_blank">
+                            Royal Liverpool
+                        </a>
+                        nor due to host The Open Championship anytime soon, but Ghetto Golf, combining crazy golf,
+                        booze, and DJs in 'an art infused environment', is just much more stag.
+                    </span>
+                    <li class="event-details__list-item">19:30
+                        <a class="anchor-tag__content" href="https://bundobust.com/locations/liverpool/"
+                            title="Check out the menu here" target="_blank">
+                            Bundobust</a>...
+                    </li>
+                    <span class="event-details__info-para">
+                        For Indian street food and CRAFT BEER from the Bundobust Brewery.
+                    </span>
+                    <li class="event-details__list-item">21:00<a class="anchor-tag__content"
+                            id="event-details__pub-golf"> Pub Golf 9 Holes</a>
+                        <ol class="event-details__pubgolf-list" id="event-details__pub-golf__pubs">
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content" href="https://campandfurnace.com/"
+                                    title="Check out what's on" target="_blank">Camp and Furnace</a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content"
+                                    href="https://theguideliverpool.com/directory/aloha-liverpool/"
+                                    title="Find out about this Tiki bar" target="_blank">
+                                    Aloha
+                                </a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content"
+                                    href="https://www.instagram.com/bar_cava_liverpool/?hl=en"
+                                    title="Check out BaCava's Instagram" target="_blank">
+                                    Bar Cava
+                                </a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content" href="https://www.theshippingforecastliverpool.com/"
+                                    title="Check the drinks and food menus" target="_blank">
+                                    The Shipping Forecast
+                                </a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content" href="https://twitter.com/facultybar"
+                                    title="Check out Faculty Bar's Twitter" target="_blank">
+                                    Faculty Bar
+                                </a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content" href="https://brooklynmixer.co.uk/"
+                                    title="Check out the drinks and cocktail menus" target="_blank">
+                                    Brooklyn Mixer
+                                </a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content" href="https://lagoliverpool.co.uk/"
+                                    title="Check out the shots menu" target="_blank">
+                                    La'Go
+                                </a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content" href="https://bit.ly/3nxrKgX"
+                                    title="Find out why this student boozer's called The Raz" target="_blank">
+                                    The Blue Angel Nighclub aka The Raz
+                                </a>
+                            </li>
+                            <li class="event-details__pubgolf-list__item">
+                                <a class="anchor-tag__content" href="https://mojobar.co.uk/liverpool"
+                                    title="Check out the drinks and food menus" target="_blank">
+                                    Mojos
+                                </a>
+                            </li>
+                            <button class="close-button" id="close-toggle-slide__pub-golf">Close</button>
+                        </ol>
+                    </li>
+                </ul>
+                <p class="event-details__info-para">Then, on into the small hours for Saturday night antics.</p>
+            </article>
+
+            <!--Sunday 22nd August-->
+            <aside class="day-container day-container__sun">
+                <h1 class="event-details__day-title">Sunday</h1>
+            </aside>
+            <aside class="day-container-mobile day-container__sun-evening">
+                <h1 class="event-details__day-title">
+                    <a id="mobile__day-title__sun" class="day-container-mobile__a" href="#Sun">Sunday</a>
+                </h1>
+            </aside>
+            <article class="event-details-container day-overview__sun" id="mobile__day-overview__sun">
+                <a name="Sun"></a>
+                <h1 class="event-details__title">Sunday's Shame Well</h1>
+                <p class="event-details__info-para">
+                    And it all hits home. The highs, the hangover, and feeling of unconscionable guilt at nothing and
+                    everything in particular.
+                    The hotel's fry up will sort it out one way or another. That and confession. Don't forget that
+                    Liverpool is home to the Grade 2 Listed Metropolitan Catholic Cathedral
+                    locally nicknamed "Paddy's Wigwam" for it's circular design. Remember Catholicism and guilt go hand
+                    in hand.
+                </p>
+                <ul class="event-details__list">
+                    <li class="event-details__list-item">11:00
+                        <a class="anchor-tag__content" href="https://liverpoolmetrocathedral.org.uk"
+                            title="Check mass times here" target="_blank">Catholic Catherdral</a> ALL SINS ABSOLVED
+                        (optional)
+                    </li>
+                    <li class="event-details__list-item">13:00 Food at
+                        <a class="anchor-tag__content" href="https://allertonmanorgolfclub.com/"
+                            title="Find out more about Allerton manor" target="_blank">
+                            Allerton Manor Golf Club</a>
+                    </li>
+                </ul>
+                <p class="event-details__info-para">Finally, head home, regroup and back for more on 4th September 2021
+                    for the wedding of the year.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__list">
+                <li class="main-footer__list-item">#batherlikegather</li>
+                <li class="main-footer__list-item__main">Credits: Steady Eddy (for on point stag organisation)</li>
+                <li class="main-footer__list-item__mobile">Credits: Steady Eddy</li>
+                <li class="main-footer__list-item__mobile paren">(for on point organisation)</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+<!--FontAwesome-->
+<script src="https://kit.fontawesome.com/08c9caba42.js" crossorigin="anonymous"></script>
+
+<!--JavaScript-->
+<script src="js/index.js"></script>
+
+<!--JQuery-->
+<script src="jquery/jquery-3.6.0.js"></script>
+<script src="jquery/index_jq.js"></script>
+
+</html>

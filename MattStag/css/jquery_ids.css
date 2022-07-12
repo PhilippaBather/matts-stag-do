@@ -1,0 +1,29 @@
+/** IDs & Buttons for JQuery**/
+#event-details__hotel,
+#event-details__parking,
+#event-details__pub-golf {
+  cursor: pointer;
+}
+
+#event-details__hotel:hover,
+#event-details__parking:hover,
+#event-details__pub-golf:hover {
+  font-weight: 600;
+  color: var(--pink-panther);
+}
+
+.close-button {
+  margin-top: 1rem;
+  padding: 0.3rem;
+  background-color: var(--hot-panther);
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 30%;
+}
+@media (min-width: 65em) {
+  .close-button {
+    font-size: 1rem;
+    margin-left: 3rem;
+    padding: 0.6rem;
+  }
+}/*# sourceMappingURL=jquery_ids.css.map */
