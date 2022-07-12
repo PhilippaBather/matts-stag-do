@@ -1,0 +1,53 @@
+@import "header.scss";
+@import "events.scss";
+@import "footer.scss";
+@import "jquery_ids.scss";
+@import "keyframes.scss";
+
+@mixin media-min-width($width) {
+    @media (min-width: $width) {
+        @content;
+    }
+}
+
+// Media Query Key: Pixel sizes
+// 1200px general laptop screen size
+// 1600px large laptop screen size
+
+@mixin display-flex() {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+:root {
+    --dusky-black: #232323;
+    --off-white: rgb(223, 215, 215);
+    --pink-panther: #c5075a;
+    --hot-panther: #c5075a;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100%;
+    background-color: white;
+}
+
+.anchor-tag__content {
+    text-decoration: none;
+    color: var(--pink-panther);
+}
+
+.anchor-tag__content:hover {
+    font-weight: 600;
+}
